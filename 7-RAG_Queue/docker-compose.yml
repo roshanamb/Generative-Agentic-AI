@@ -1,0 +1,8 @@
+services:
+  ## RAG Queue
+  ## Valkey is a Redis-compatible vector database that can be used for storing and querying vector embeddings.
+  ## Same code work for Valkey as for Redis, just change the connection URL to point to Valkey instead of Redis.
+  valkey:
+    image: valkey/valkey:latest
+    ports:
+      - "6379:6379"

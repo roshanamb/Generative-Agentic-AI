@@ -15,6 +15,8 @@
 
 ```powershell
 1. fastapi dev filename.py [server.py]
+
+2. python -m 7-RAG_Queue.main [run FastAPI using Uvicorn]
 ```
 
 **Run Docker compose file:**
@@ -31,4 +33,10 @@
 2. pip install -qU langchain.text_splitter   [package for chunking pages into small paragraphs]
 3. pip install -qU langchain_openai          [Package for Embedding Model]
 4. pip install -qU langchain-qdrant          [Package for storing into Qdrant Vector DB]
+```
+
+**RQ - Redis Queue for Async:**
+
+```sh
+1. pip install rq
 ```
