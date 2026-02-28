@@ -60,6 +60,7 @@ response = client.chat.completions.create(
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": query},
     ]
+)
 
 print("Response from the assistant:")
 print(response.choices[0].message.content)
