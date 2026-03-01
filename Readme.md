@@ -40,3 +40,15 @@
 ```sh
 1. pip install rq
 ```
+
+**Run LangGraph**
+
+```sh
+1. pip install -U langgraph
+```
+
+**Run Memory MEM0**
+
+```sh
+1. pip install mem0ai
+```
