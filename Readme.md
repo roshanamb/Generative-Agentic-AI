@@ -47,8 +47,9 @@
 1. pip install -U langgraph
 ```
 
-**Run Memory MEM0**
+**Run Memory MEM0 AND Graph Memory (Neo4j)**
 
 ```sh
 1. pip install mem0ai
+2. pip install longchain_neo4j [Graph Memory]
 ```
