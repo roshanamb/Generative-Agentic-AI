@@ -53,3 +53,11 @@
 1. pip install mem0ai
 2. pip install longchain_neo4j [Graph Memory]
 ```
+
+**Run Voice to Text (Speech Recognition) package**
+
+```sh
+## For Windows system
+1. pip install SpeechRecognition
+2. pip install SpeechRecognition[audio]   # This is require to access Microphone through PyAudio package
+```
